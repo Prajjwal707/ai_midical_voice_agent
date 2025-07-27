@@ -2,6 +2,7 @@
 
 
 import { motion } from "motion/react";
+import { FeatureBentoGrid } from "./_components/FeatureBenotGrid";
 
 export default function HeroSectionOne() {
   return (
@@ -98,6 +99,7 @@ export default function HeroSectionOne() {
           </div>
         </motion.div>
       </div>
+      <FeatureBentoGrid/>
     </div>
   );
 }
